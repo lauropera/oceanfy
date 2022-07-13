@@ -6,7 +6,7 @@ class ProfileEdit extends Component {
   render() {
     return (
       <Link
-        to="/search"
+        to="/trybetunes/search"
         data-testid="page-not-found"
         className="Link-Not-Found"
       >

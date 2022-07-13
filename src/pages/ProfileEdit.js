@@ -51,7 +51,7 @@ class ProfileEdit extends Component {
     const {
       history: { push },
     } = this.props;
-    push('/profile');
+    push('/trybetunes/profile');
   };
 
   validateNewInfo = () => {

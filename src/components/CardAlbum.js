@@ -20,7 +20,7 @@ class CardAlbum extends Component {
               artworkUrl100,
             }) => (
               <Link
-                to={ `/album/${collectionId}` }
+                to={ `/trybetunes/album/${collectionId}` }
                 data-testid={ `link-to-album-${collectionId}` }
                 key={ collectionId }
                 className="Song"
