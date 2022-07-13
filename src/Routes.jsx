@@ -12,12 +12,12 @@ class Routes extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={ Login } />
-        <Route path="/search" component={ Search } />
-        <Route path="/album/:id" component={ Album } />
-        <Route path="/favorites" component={ Favorites } />
-        <Route exact path="/profile" component={ Profile } />
-        <Route path="/profile/edit" component={ ProfileEdit } />
+        <Route exact path="/trybetunes/" component={ Login } />
+        <Route path="/trybetunes/search" component={ Search } />
+        <Route path="/trybetunes/album/:id" component={ Album } />
+        <Route path="/trybetunes/favorites" component={ Favorites } />
+        <Route exact path="/trybetunes/profile" component={ Profile } />
+        <Route path="/trybetunes/profile/edit" component={ ProfileEdit } />
         <Route path="*" component={ NotFound } />
       </Switch>
     );

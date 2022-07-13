@@ -32,7 +32,7 @@ class Login extends Component {
 
   redirectToSearchPage = () => {
     const { history: { push } } = this.props;
-    push('/search');
+    push('/trybetunes/search');
   }
 
   render() {
