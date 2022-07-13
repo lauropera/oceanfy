@@ -1,0 +1,61 @@
+.Fav-Checkbox {
+  display: none;
+}
+
+.Audio-and-Fav p {
+  display: none;
+}
+
+.Album-Song {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.Track-Name {
+  text-align: center;
+  width: 50%;
+}
+
+.Audio-and-Fav {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and ( max-width : 678px ) {
+
+  .Album-Song {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 6px 0;
+    width: 100%;
+  }
+
+  .Track-Name {
+    text-align: left;
+    width: 100%;
+  }
+
+  .Album-Song h3 {
+    padding-left: 12px;
+  }
+
+  .Audio-and-Fav {
+    height: 65px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Audio-and-Fav audio {
+    width: 80%;
+  }
+
+  .Fav {
+    height: 20px;
+    width: 20px;
+  }
+
+}

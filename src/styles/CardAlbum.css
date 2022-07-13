@@ -1,0 +1,111 @@
+.Albums-List {
+  align-items: center;
+  background-color: #141d22;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 32px;
+  left: 230px;
+  padding: 24px 12px;
+  position: absolute;
+  top: 60px;
+}
+
+.Albums-List p {
+  color: white;
+  font-size: 18px;
+}
+
+.Artist-Search p {
+  font-size: 2rem;
+}
+
+.Artist-Albums {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  width: 100%;
+}
+
+.Song {
+  text-decoration: none;
+  transition: 0.3s;
+  width: 220px;
+}
+
+.Song:hover {
+  filter: brightness(60%);
+  transition: 0.3s;
+}
+
+.Artist-Song, .Song-Info {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: center;
+}
+
+.Artist-Song h3 {
+  color: white;
+}
+
+.Artist-Song p {
+  color: #c1ccc1;
+}
+
+.Song-Info {
+  background-color: #090f13;
+  border-radius: 12px;
+  gap: 12px;
+  height: auto;
+  padding: 16px 8px;
+  text-align: center;
+}
+
+.Song-Info img {
+  border-radius: 8px;
+}
+
+@media screen and ( max-width : 678px ) {
+
+  .Artist-Albums {
+    padding-bottom: 20px;
+  }
+
+  .Albums-List {
+    margin-top: 150px;
+    padding: 0;
+    position: static;
+    width: 100vw;
+  }
+
+  .Song {
+    width: 85%;
+  }
+
+  .Song-Info {
+    flex-direction: row;
+    padding: 12px;
+    text-align: left;
+  }
+
+  .Artist-Song {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    padding: 0 6px;
+    width: 100%;
+  }
+
+  .Artist-Song p {
+    font-size: 12px;
+  }
+
+  .wave-bottom {
+    background-position: bottom;
+    background-size: contain;
+  }
+
+}

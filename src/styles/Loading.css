@@ -1,0 +1,23 @@
+.Loading {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.Loading h2 {
+  font-size: 2rem;
+}
+
+@media screen and ( max-width : 678px ) {
+
+  .Loading h2 {
+    font-size: 2.5rem;
+  }
+}

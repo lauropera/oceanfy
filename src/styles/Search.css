@@ -1,0 +1,123 @@
+.Search-Container {
+  background-color: #141d22;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.Search-Form {
+  align-items: center;
+  background-color: #070b0e;
+  display: flex;
+  gap: 12px;
+  height: 60px;
+  justify-content: center;
+  left: 230px;
+  position: fixed;
+  width: calc(100% - 230px);
+  z-index: 5;
+}
+
+.Search-Form label {
+  display: flex;
+  width: 30vw;
+}
+
+.Search-Form label input {
+  border: none;
+  border-radius: 16px;
+  flex-grow: 1;
+  padding: 8px;
+}
+
+.Search-Form label input:focus {
+  outline: none;
+}
+
+.Search-Form button {
+  border: none;
+  border-radius: 100%;
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+
+
+.Search-Form button:disabled {
+  filter: brightness(60%);
+  transition: 0.3s;
+}
+
+.Search-Form button:enabled {
+  cursor: pointer;
+}
+
+.Main-Search {
+  background-color: #141d22;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wave-bottom {
+  background: url('../images/layered-waves-haikei-bottom.svg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and ( max-width : 678px ) {
+
+  .Search-Container {
+    gap: 16px;
+    position: static;
+  }
+
+  .Search-Form {
+    align-items: center;
+    background-color: #141d22;
+    gap: 16px;
+    justify-content: center;
+    left: 0;
+    margin-top: 72px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .Search-Form label {
+    width: 75%;
+  }
+
+  .Search-Form label input {
+    padding: 8px;
+    width: 100%;
+  }
+
+  .Search-Form button {
+    background: transparent;
+    background-color: #0c454c;
+    border: none;
+    border-radius: 100%;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: 12%;
+    width: 36px;
+  }
+
+  .Artist-Search {
+    padding: 0 12px;
+  }
+
+  .Artist-Search p {
+    font-size: 18px;
+  }
+
+  .Main-Search {
+    height: calc(100vh - 140px);
+  }
+
+  .wave-bottom {
+    background-attachment: fixed;
+  }
+
+}

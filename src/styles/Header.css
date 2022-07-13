@@ -1,0 +1,137 @@
+.Header {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 4px;
+  position: fixed;
+  width: 230px;
+  z-index: 6;
+}
+
+.User-Informations {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  inline-size: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+.Links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 46vh;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.Link {
+  background-color: #dde0d8;
+  border-radius: 22px;
+  color: #141d22;
+  cursor: default;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+}
+
+.Link:hover {
+  filter: brightness(70%);
+  transition: 0.2s;
+}
+
+.Link-Picture {
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  overflow: hidden;
+  width: 200px;
+}
+
+.Link-Name {
+  color: #dde0d8;
+  font-size: 2rem;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Header-Pic {
+  height: inherit;
+  width: fit-content;
+}
+
+.wave-header {
+  background: url('../images/layered-waves-haikei-header.svg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and ( max-width : 678px ) {
+
+  .Search-Container {
+    flex-direction: column;
+  }
+
+  .wave-header {
+    background: url('../images/layered-waves-haikei-mobi.svg');
+  }
+
+  .Header {
+    align-items: center;
+    border: none;
+    flex-direction: row;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .User-Informations {
+    inline-size: auto;
+  }
+
+  .Link-Picture {
+    background-color: #141d22;
+    border: 2px solid #141d22;
+    border-radius: 100%;
+    height: 64px;
+    overflow: hidden;
+    padding: 0;
+    width: 64px;
+  }
+
+  .Link-Name {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .Links {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .Link {
+    width: 30%;
+  }
+
+  .blob {
+    background-position: top;
+  }
+
+}

@@ -1,0 +1,36 @@
+.Link-Not-Found {
+  text-decoration: none;
+}
+
+.Not-Found {
+  align-items: center;
+  background: url('../images/blob-scene-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  justify-content: center;
+  padding: 0 8px;
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  z-index: 3;
+}
+
+.Not-Found h1 {
+  font-size: 4rem;
+}
+
+.Not-Found p {
+  font-size: 1.3rem;
+}
+
+@media screen and ( max-width : 678px ) {
+
+  .Not-Found {
+    background-position: left;
+  }
+}
