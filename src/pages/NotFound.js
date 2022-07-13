@@ -5,7 +5,11 @@ import '../styles/NotFound.css';
 class ProfileEdit extends Component {
   render() {
     return (
-      <Link to="/search" data-testid="page-not-found" className="Link-Not-Found">
+      <Link
+        to="/trybetunes/search"
+        data-testid="page-not-found"
+        className="Link-Not-Found"
+      >
         <div className="Not-Found">
           <h1>404</h1>
           <p>

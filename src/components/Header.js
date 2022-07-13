@@ -37,14 +37,14 @@ class Header extends Component {
         ) : (
           <>
             <div className="User-Informations">
-              <Link to="/profile" className="Link-Picture">
+              <Link to="/trybetunes/profile" className="Link-Picture">
                 <img
                   src={ image || defaultUser }
                   alt={ `User ${name}` }
                   className="Header-Pic"
                 />
               </Link>
-              <Link to="/profile" className="Link-Name">
+              <Link to="/trybetunes/profile" className="Link-Name">
                 <p data-testid="header-user-name">{name}</p>
               </Link>
             </div>
@@ -52,21 +52,21 @@ class Header extends Component {
               <ul className="Links">
                 <Link
                   data-testid="link-to-search"
-                  to="/search"
+                  to="/trybetunes/search"
                   className="Link"
                 >
                   <li>Busca</li>
                 </Link>
                 <Link
                   data-testid="link-to-favorites"
-                  to="/favorites"
+                  to="/trybetunes/favorites"
                   className="Link"
                 >
                   <li>Curtidas</li>
                 </Link>
                 <Link
                   data-testid="link-to-profile"
-                  to="/profile"
+                  to="/trybetunes/profile"
                   className="Link"
                 >
                   <li>Perfil</li>
