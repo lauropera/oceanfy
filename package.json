@@ -1,7 +1,7 @@
 {
-  "homepage": "https://lauropera.github.io/trybetunes/",
   "name": "trybetunes",
   "version": "0.1.0",
+  "homepage": "https://lauropera.github.io/trybetunes/",
   "private": true,
   "engines": {
     "node": "16"

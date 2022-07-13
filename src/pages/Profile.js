@@ -58,7 +58,7 @@ class Profile extends Component {
                 <p>{email}</p>
                 <p>{description}</p>
               </div>
-              <Link to="/trybetunes/profile/edit" className="Edit-Profile">
+              <Link to="/profile/edit" className="Edit-Profile">
                 Editar perfil
               </Link>
             </section>
