@@ -24,7 +24,7 @@ class Search extends Component {
     });
   };
 
-  handleClick = () => {
+  getAlbums = () => {
     const { userSearch } = this.state;
     this.setState(
       {
@@ -50,7 +50,7 @@ class Search extends Component {
       <>
         <Header />
         <section data-testid="page-search" className="Search-Container wave-bottom">
-          <form className="Search-Form">
+          <form className="Search-Form" onSubmit={ this.getAlbums }>
             <label htmlFor="search-artist">
               <input
                 type="text"
@@ -65,7 +65,7 @@ class Search extends Component {
               type="button"
               data-testid="search-artist-button"
               disabled={ userSearch.length < 2 }
-              onClick={ this.handleClick }
+              onClick={ this.getAlbums }
             >
               <FaSearch />
             </button>
