@@ -2,7 +2,7 @@
 
 ![Preview Projeto](./imgs/Readme-gif.gif)
 
-## Acesse meu projeto <a href="https://lauropera.github.io/trybetunes/">AQUI</a>
+## Acesse o projeto clicando <a href="https://lauropera.github.io/trybetunes/">AQUI</a>
 
 <br />
 
