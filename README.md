@@ -16,7 +16,7 @@ Nesse projeto desenvolvemos uma aplicação para ouvir músicas. Consultamos uma
 
 ## ⚙️ Tecnologias
 
-* HTML
+* HTML5
 * CSS
 * JavaScript
 * React.js
