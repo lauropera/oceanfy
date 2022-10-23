@@ -41,7 +41,7 @@ class Login extends Component {
       <div data-testid="page-login" className="Login-Page wave-header">
         { isLoading ? <Loading /> : (
           <>
-            <h1>TrybeTunes</h1>
+            <h1>Oceanfy</h1>
             <form className="Login-Form">
               <label htmlFor="name-input">
                 {' '}

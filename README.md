@@ -1,8 +1,8 @@
-# 🎹 Trybetunes
+# 🎹 Oceanfy
 
 ![Preview Projeto](./imgs/Readme-gif.gif)
 
-## Acesse o projeto clicando <a href="https://lauropera.github.io/trybetunes/">AQUI</a>
+## Acesse o projeto clicando <a href="https://lauropera.github.io/Oceanfy/">AQUI</a>
 
 <br />
 
@@ -37,13 +37,13 @@ Nesse projeto desenvolvemos uma aplicação para ouvir músicas. Consultamos uma
 - Clone o repositório:
 
   ```sh
-    git clone git@github.com:"SeuNomeNoGitHub"/trybetunes.git
+    git clone git@github.com:"SeuNomeNoGitHub"/oceanfy.git
   ```
 
 - Apos ter o repositório clonado em sua maquina, execute este comando para acessar a parta do projeto:
 
   ```sh
-    cd trybetunes
+    cd oceanfy
   ```
 
 - Dentro da pasta do projeto, execute o comando abaixo para instalar as dependências do projeto:

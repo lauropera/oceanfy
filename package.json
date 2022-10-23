@@ -1,7 +1,7 @@
 {
-  "name": "trybetunes",
+  "name": "oceanfy",
   "version": "0.1.0",
-  "homepage": "https://lauropera.github.io/trybetunes/",
+  "homepage": "https://lauropera.github.io/oceanfy/",
   "private": true,
   "engines": {
     "node": "16"
