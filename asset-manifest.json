@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/trybetunes/static/css/main.085bf1d5.chunk.css",
-    "main.js": "/trybetunes/static/js/main.c2059035.chunk.js",
-    "main.js.map": "/trybetunes/static/js/main.c2059035.chunk.js.map",
-    "runtime-main.js": "/trybetunes/static/js/runtime-main.0efcbead.js",
-    "runtime-main.js.map": "/trybetunes/static/js/runtime-main.0efcbead.js.map",
-    "static/js/2.8fa6cc91.chunk.js": "/trybetunes/static/js/2.8fa6cc91.chunk.js",
-    "static/js/2.8fa6cc91.chunk.js.map": "/trybetunes/static/js/2.8fa6cc91.chunk.js.map",
-    "index.html": "/trybetunes/index.html",
-    "static/css/main.085bf1d5.chunk.css.map": "/trybetunes/static/css/main.085bf1d5.chunk.css.map",
-    "static/js/2.8fa6cc91.chunk.js.LICENSE.txt": "/trybetunes/static/js/2.8fa6cc91.chunk.js.LICENSE.txt",
-    "static/media/NotFound.css": "/trybetunes/static/media/blob-scene-haikei.c4b76dc6.svg",
-    "static/media/default-user.347d90fa.svg": "/trybetunes/static/media/default-user.347d90fa.svg",
-    "static/media/Search.css": "/trybetunes/static/media/layered-waves-haikei-bottom.998a5ab3.svg",
-    "static/media/Header.css": "/trybetunes/static/media/layered-waves-haikei-mobi.24164cb5.svg"
+    "main.css": "/oceanfy/static/css/main.214d5072.chunk.css",
+    "main.js": "/oceanfy/static/js/main.881f7a0f.chunk.js",
+    "main.js.map": "/oceanfy/static/js/main.881f7a0f.chunk.js.map",
+    "runtime-main.js": "/oceanfy/static/js/runtime-main.12999f6b.js",
+    "runtime-main.js.map": "/oceanfy/static/js/runtime-main.12999f6b.js.map",
+    "static/js/2.0f5f4663.chunk.js": "/oceanfy/static/js/2.0f5f4663.chunk.js",
+    "static/js/2.0f5f4663.chunk.js.map": "/oceanfy/static/js/2.0f5f4663.chunk.js.map",
+    "index.html": "/oceanfy/index.html",
+    "static/css/main.214d5072.chunk.css.map": "/oceanfy/static/css/main.214d5072.chunk.css.map",
+    "static/js/2.0f5f4663.chunk.js.LICENSE.txt": "/oceanfy/static/js/2.0f5f4663.chunk.js.LICENSE.txt",
+    "static/media/NotFound.css": "/oceanfy/static/media/blob-scene-haikei.c4b76dc6.svg",
+    "static/media/default-user.347d90fa.svg": "/oceanfy/static/media/default-user.347d90fa.svg",
+    "static/media/Search.css": "/oceanfy/static/media/layered-waves-haikei-bottom.998a5ab3.svg",
+    "static/media/Header.css": "/oceanfy/static/media/layered-waves-haikei-mobi.24164cb5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0efcbead.js",
-    "static/js/2.8fa6cc91.chunk.js",
-    "static/css/main.085bf1d5.chunk.css",
-    "static/js/main.c2059035.chunk.js"
+    "static/js/runtime-main.12999f6b.js",
+    "static/js/2.0f5f4663.chunk.js",
+    "static/css/main.214d5072.chunk.css",
+    "static/js/main.881f7a0f.chunk.js"
   ]
 }
