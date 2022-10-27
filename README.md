@@ -2,7 +2,7 @@
 
 ![Preview Projeto](./imgs/Readme-gif.gif)
 
-## Acesse o projeto clicando <a href="https://lauropera.github.io/Oceanfy/">AQUI</a>
+## Acesse o projeto clicando <a href="https://lauropera.github.io/oceanfy/">AQUI</a>
 
 <br />
 
